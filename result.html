@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Diagnosis Result</title>
+
+    <link rel="stylesheet"
+          href="css/result.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="result-card">
+
+        <div class="success-icon">
+            ✔
+        </div>
+
+        <h1>
+            Diagnosis Selesai
+        </h1>
+
+        <p class="subtitle">
+            Analisis kulit wajah Anda telah selesai.
+        </p>
+
+        <!-- Diagnosis -->
+
+        <div class="section">
+
+            <span class="label">
+                Kondisi Kulit
+            </span>
+
+            <h2 id="condition">
+
+                Memuat...
+
+            </h2>
+
+        </div>
+
+        <!-- Confidence -->
+
+        <div class="section">
+
+            <span class="label">
+
+                Confidence
+
+            </span>
+
+            <div class="confidence">
+
+                <span id="cfPercent">
+
+                    0%
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Ingredients -->
+
+        <div class="section">
+
+            <span class="label">
+
+                Rekomendasi Bahan Skincare
+
+            </span>
+
+            <ul id="ingredients">
+
+            </ul>
+
+        </div>
+
+        <!-- Avoid -->
+
+        <div class="section">
+
+            <span class="label">
+
+                Hindari..
+
+            </span>
+
+            <ul id="avoid">
+
+            </ul>
+
+        </div>
+
+        <!-- Tips -->
+
+        <div class="section">
+
+            <span class="label">
+
+                Tips
+
+            </span>
+
+            <ul id="tips">
+
+            </ul>
+
+        </div>
+
+        <button id="restartBtn">
+
+            Mulai Diagnosis Baru
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/result.js"></script>
+
+</body>
+
+</html>

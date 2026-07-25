@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diagnosis - SkinCare Expert System</title>
+
+    <link rel="stylesheet" href="css/diagnosis.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <a href="index.html" class="logo">
+                SkinCare Expert System
+            </a>
+
+            <div class="progress-area">
+
+                <div class="question-number">
+                    Question
+                    <span id="currentQuestion">1</span>
+                    of
+                    <span id="totalQuestion">15</span>
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-bar" id="progressBar">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- CARD -->
+
+        <main class="card">
+
+            <span class="subtitle">
+                Facial Skin Diagnosis
+            </span>
+
+            <h1 id="questionTitle">
+
+                Loading Question...
+
+            </h1>
+
+            <p class="description">
+
+                Silakan pilih jawaban yang paling sesuai dengan kondisi kulit wajah Anda.
+
+            </p>
+
+            <div class="answers" id="answerContainer">
+
+                <!-- Filled by JavaScript -->
+
+            </div>
+
+
+            <div class="navigation">
+
+                <button id="backBtn" class="back">
+
+                    ← Back
+
+                </button>
+
+                <button id="nextBtn" class="next" disabled>
+
+                    Next →
+
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="js/diagnosis.js"></script>
+
+</body>
+
+</html>
